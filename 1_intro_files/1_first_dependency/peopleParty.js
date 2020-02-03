@@ -15,7 +15,7 @@ for(let i = 0; i < 10; i++) {
     const student = new Student(faker.name.firstName() + ' ' + faker.name.lastName());
     //console.log(faker.name.firstName(), faker.name.lastName());
     //console.log(student.name);
-    students.push(student.name);
+    students.push(student);
 }
 
 console.log(students);
