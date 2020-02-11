@@ -34,12 +34,12 @@ class App extends React.Component {
     let pageToShow = 'buspage';
 
 
-   /*  if(navpage === 'buspage') {
+    if(navpage === 'buspage') {
       pageToShow = <BusPage/>
 
     } else {
       pageToShow = <ProfilePage/>
-    } */
+    }
 
     console.log(this.state);
     return (
