@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: lightskyblue;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 10px navy;
+
+}
+
