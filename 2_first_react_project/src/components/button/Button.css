@@ -1,0 +1,12 @@
+.propBtn, .childBtn {
+    background: navy;
+    padding: 10px;
+    border: 1px solid navy;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    min-width: 10em;
+    margin-bottom: 2px;
+  }
+  
