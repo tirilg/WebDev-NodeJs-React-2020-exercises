@@ -8,14 +8,11 @@ class Theme extends Component {
 
     render() {
 
-        console.log(this.props)
-        const { onBtnClicked } = this.props;
-        const { color } = this.state
-        console.log(this.state)
+    
         return(
             <div>
                 <input type="color" onChange={(event) => this.setState({color: event.target.value})}/>
-                <button onClick={() => onBtnClicked(color)}>Submit color</button>
+                <button onClick={() => this.props.handleThemeChange(this.state.color)}>Submit color</button>
             </div>
         );
     }
