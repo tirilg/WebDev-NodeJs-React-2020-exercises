@@ -27,7 +27,10 @@ function deleteCar(carId) {
 }
 
 function editCar(carId) {
+
+    //replace p with inputs
     
+    //when submit button is clicked
     $.ajax({
         url:'cars/' + carId,
         type: 'PUT'
@@ -55,7 +58,7 @@ function addCar (e) {
                 <p>Type: ${ car.type ? car.type : "no type" }</p>
             </div>
         `;
-        $('#wrapper').append(carCard);
+        $('#wrapper').prepend(carCard);
   });
 }
 
